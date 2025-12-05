@@ -5,6 +5,7 @@
   padding: 20px;
   border: 3px solid #000000;
   border-radius: 10px;
+  background: #8c2ce6;
 }
 
 #display {
@@ -33,4 +34,21 @@
 
 .long-button {
   grid-row: span 2;
+}
+
+.title {
+
+}
+.scientific-section {
+  margin-top: 20px;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 60px;
+  grid-gap: 20px;
+}
+
+.scientific-section button {
+  font-size: 25px;
+  border: 1px solid;
 }
